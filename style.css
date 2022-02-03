@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    font-family: 'Lobster', cursive;
+    background: url(https://habrastorage.org/getpro/habr/post_images/446/d41/af4/446d41af4402a42a4ecce12d6d46e004.png);  
+    padding: 100px 0;
+}
+ h3 {
+     font-size: 20px;
+     font-weight: bold;
+     margin-bottom: 10px;
+     
+ }
+.container {
+    width: 1000px;
+    min-height: 500px;
+    border: 1px solid #4B0082;
+    margin: 0 auto;
+    background-color:#DDA0DD;
+}
+.header{
+    display: flex;
+    height: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #060620;
+    background: url(https://wallscloud.net/uploads/cache/1236770248/000000680-1024x576-MM-90.jpg)
+    no-repeat center center / cover;
+    color: aliceblue;
+}
+.userpic {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background: url(https://genlogo.com/u_ajax.php?handler=GenLogo&command=ajax_site_get_colors&t=Gleb%20Volkov&s=&g=318&l=1364&f=8468&c=11973&x=1643806506076)
+    no-repeat center center / cover;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.nav {
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.nav ul {
+    display: flex;
+    background-color: #FFE4B5;
+    margin: 10px, 0;  
+}
+.nav li a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #2F4F4F;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 1px solid #4B0082;
+    text-align: center;
+    transition: background .3s ease;
+}
+.nav li a:hover {
+    background: #ddb9ff;  
+}
+.content-wrapper {
+    display:flex;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+    
+}
+.content {
+    padding: 10px;
+    width: 80%;
+    text-align: justify;
+    height: 100px;
+    
+
+}
+.sidebar {
+    padding: 10px;
+    padding-left: 0px;
+    width: 20%;
+    margin-left: 10px;
+    
+}
+.skills li {
+    padding: 10px 0px;
+    transition: transform .5s ease ;
+    cursor: pointer;
+}
+.skills li:hover {
+    transform: translateX(10px);
+}
